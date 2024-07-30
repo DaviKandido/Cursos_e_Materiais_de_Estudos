@@ -15,8 +15,24 @@
         <img src="imagens/foto-g.png" alt="Imagens Flexivel">
     </picture>
 
-    <h1>Audios</h1>
-    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+    <h1>Reproduzindo Áudios</h1>
+    <p>Vamos aprender a reproduzir audios em HTML5</p>
+    <!--<audio src="midia/Big-Sky.mp3" controls autoplay></audio> -->
+
+    <audio src="midia/Big-Sky.mp3" controls></audio>
+    <!-- MP3 WAV OGC -->
+
+    <!--preload = auto (Carrega todo o arquivo primeiro/pesado) -->
+    <!--preload = metadata (Carrega apenas algumas informações sobre/recomendado) -->
+    <!--preload = none (So carrega quando clicar) -->
+    <audio preload="metadata" controls autoplay loop>
+        <source src="midia/Operator.mp3" type="audio/mpeg">
+        <source src="midia/Operator.ogg" type="audio/ogg">
+        <source src="midia/Operator.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="midia/Operator.mp3">Clique aqui para baixar o arquivo MP3</a></p>
+    </audio>
+
+    
     
 </body>
 </html>
