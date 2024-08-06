@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="pdf-icon.png" type="image/x-icon">
+    <title>Desafio 07</title>
+
+    <style>
+        .Conteudo{
+            margin: 2%;
+            align-items: center;
+            background-color: antiquewhite;
+            padding-top: 0.5%;
+            padding-bottom: 2%;
+
+        }
+        .Conteudo h1{
+            text-align: center;
+        }
+        .Conteudo p{
+            text-align: center;
+        }
+        .Conteudo img{
+            display: block;
+            margin: 0 auto;  
+        }
+
+    </style>
+
+
+</head>
+<body>
+
+    <div class="Conteudo">
+        <h1>Imagem Flexível</h1>
+
+        <p>Você esta vendo a imagem completa? Experimente ampliar o tamanho da sua janela para aproveitar a melhor experimente  🙃</p>
+
+        <picture>
+            <source media="(max-width: 750px)" srcset="imagens/paisagem-p.png" type="image/png">
+            <source media="(max-width: 1050px)" srcset="imagens/paisagem-m.png"  type="image/png">
+            <img src="imagens/paisagem-g.png" alt="imagem">
+        </picture>
+
+    </div>
+
+    
+</body>
+</html>

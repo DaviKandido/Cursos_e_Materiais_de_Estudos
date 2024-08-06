@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML 5</title>
+</head>
+<body>
+    <h1>Inserindo videos hospedados localmente</h1>
+
+    <p>Este video esta hospedado no meu próprio servidor</p>
+
+    <!--A tag poster coloca a imagem definida como capa para o video-->
+    <video width="500" poster="imagens/imagem-capa.png" controls loop autoplay>
+        <source src="midia/Mulher-Metro.mp4" type="video/mp4">
+        <source src="midia/Mulher-Metro.mkv" type="video/mp4">
+        <source src="midia/Mulher-Metro.webm" type="video/webm">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos</p>
+    </video>
+    <!--Ele tenta cada formato caso não compatível até p caso não seja-->
+
+    <h1>Inserindo videos do Youtube</h1>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/FdE5G95B7Mg?si=l9Up8imSAxxgySyJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <h1>Inserindo videos do vimeo</h1>
+
+    <iframe src="https://player.vimeo.com/video/325601558?h=76afe84a36" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+    <!--Apagou-se paragrafo de a criado-->
+</body>
+</html>
