@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradiente em CSS</title>
+    <style>
+
+        /* Config Globais - Caso usar top, para completar a altura no topo */
+        *{
+            height: 100%; /* Caso usar top, para completar a altura no topo */
+        }
+        body{
+                                            /* Em graus */
+            /* background-image: linear-gradient(90deg); */
+            
+            /* background-image: linear-gradient(to [top, right, left, bottom]); */
+
+            /* background-image: linear-gradient(circle, #543EA0, #A33E9E, #CB2749, #CF4C42, #D8A839); */
+
+            /* background-image: linear-gradient(45deg, #543EA0, #A33E9E, #CB2749, #CF4C42, #D8A839);  */
+
+            background-image: linear-gradient(45deg,#543EA0  30% ,#A33E9E , #CB2749, #CF4C42, #D8A839);
+
+            /* Mantém  degrade fixo*/
+            background-attachment: fixed;
+
+            
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Testando Gradiente</h1>
+</body>
+</html>
