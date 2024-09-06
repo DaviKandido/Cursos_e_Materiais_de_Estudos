@@ -1,7 +1,3 @@
-Aqui está um exemplo de documentação (README.md) detalhada para o seu projeto. Ela segue uma estrutura organizada, que inclui descrição, requisitos, instruções de instalação e uso, e uma seção de contato.
-
----
-
 # 📚 Projeto: Atletas do Brasil
 
 Este projeto é uma página web interativa que permite aos usuários pesquisar informações sobre atletas brasileiros de diferentes esportes. A página foi criada como parte de um exercício da **Imersão Dev da Alura e Google** e é construída utilizando HTML, CSS, JavaScript e a biblioteca Bootstrap.
@@ -109,7 +105,3 @@ Contribuições são bem-vindas! Sinta-se à vontade para enviar pull requests o
 Para dúvidas, sugestões ou feedback, entre em contato:
 
 - **E-mail**: [davicandidopucminas@gmail.com](mailto:davicandidopucminas@gmail.com)
-
----
-
-Espero que esta documentação atenda às suas necessidades. Você pode adaptá-la conforme necessário para incluir informações mais específicas do seu projeto.
