@@ -105,7 +105,3 @@ Contribuições são bem-vindas! Sinta-se à vontade para enviar pull requests o
 Para dúvidas, sugestões ou feedback, entre em contato:
 
 - **E-mail**: [davicandidopucminas@gmail.com](mailto:davicandidopucminas@gmail.com)
-
----
-
-Espero que esta documentação atenda às suas necessidades. Você pode adaptá-la conforme necessário para incluir informações mais específicas do seu projeto.
