@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em Css - tipografia</title>
+
+    <style>
+        body{
+            /* 1º Ele tenta a arial, se não der a Helvetica e por fim a sans-serif*/  /* safe combination */
+            font-family: 'Work Sans' ,Arial, Helvetica, sans-serif;
+
+            font-size: 1em;
+            font-weight: bolder;
+            /*font-weigh: 100- 900;*/
+            /*font-weigh: scala que vai de 100 a 900
+                400 é i normal
+
+            */
+
+            font-style:italic ;
+            text-decoration: underline;
+
+            /* weight(Peso):
+            
+            lighter
+            normal
+            bold
+            bolder
+            */
+
+            /* weight (Peso) width(Largura) height(Altura)*/
+        }
+
+        h1{
+            font-family: 'Work Sans', sans-serif;
+
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+
+            /* shorthand font (Condensa as configurações a cima*/
+            /* font-style -> font-weight -> font-style -> font-family*/
+
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+
+        h2{
+
+            font: bold 2em 'Work Sans', sans-serif;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes em Css - tipografia</h1>
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel iusto, perferendis id sint laborum, ut expedita vero, rerum voluptate rem aliquid suscipit dolor adipisci consectetur et placeat similique quasi itaque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor autem eveniet eius error laboriosam recusandae, ea nam. Facere veniam amet tempora! Totam quas vero voluptatum, aut quia minima voluptatibus eos!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dolor quod culpa, eum iste soluta corporis ullam commodi ipsa excepturi numquam ab beatae deleniti consequuntur labore dolorem nemo maxime veritatis?</p>
+
+
+    <h2>Subtitulo</h2>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident, sed harum id totam ab quas unde voluptatibus molestiae eligendi dolorum debitis, optio excepturi maiores voluptates laudantium iure fuga quam sapiente? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil eum debitis praesentium voluptatibus, doloremque accusamus inventore ex architecto quia perferendis nostrum cum, beatae eius delectus reprehenderit doloribus officiis amet eligendi.</p>
+</body>
+</html>

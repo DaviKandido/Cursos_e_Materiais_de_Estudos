@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em Css - tipografia</title>
+
+    <style>
+        body{
+            /* 1º Ele tenta a arial, se não der a Helvetica e por fim a sans-serif*/  /* safe combination */
+            font-family: Arial, Helvetica, sans-serif;
+
+            /*
+            Medidas Absolutas:
+            cm, mm, in, px, pt, pc
+
+            in: Tamanho em polegadas
+            px: Tamanho em pixels
+            pt: Tamanho em picas
+            pc: medida relativa a pica
+            cm: medida relativa a centímetros
+            mm: medida relativa a milímetros
+
+            Medidas Relativas:
+            em, rem, ex, ch, vh, wh, %
+
+            em: medida relativa a altura da fonte (Mais recomendado)
+            ex: medida relativa a x da fonte
+            rem: medida relativa a fonte-pai (Mais recomendado)
+
+            ch: medida relativa a fonte-pai(root: tamanho configurado no body) em caracteres
+            vw: medida relativa a largura da viewport em porcentagem
+            wh: medida relativa a altura da viewport em porcentagem
+            %: medida relativa a viewport em porcentagem
+
+            */
+            /* 16 px é o tamnho padrão já configurado como padrão*/
+            font-size: 1em;
+            /* 1em é o tamnho normalmente da fonte, ou seja 2em é o dobro do tamnho normal*/
+        }
+
+        h1, h2{
+            font-family: 'Times New Roman', Times, serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes em Css - tipografia</h1>
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel iusto, perferendis id sint laborum, ut expedita vero, rerum voluptate rem aliquid suscipit dolor adipisci consectetur et placeat similique quasi itaque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor autem eveniet eius error laboriosam recusandae, ea nam. Facere veniam amet tempora! Totam quas vero voluptatum, aut quia minima voluptatibus eos!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dolor quod culpa, eum iste soluta corporis ullam commodi ipsa excepturi numquam ab beatae deleniti consequuntur labore dolorem nemo maxime veritatis?</p>
+
+
+    <h2>Subtitulo</h2>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident, sed harum id totam ab quas unde voluptatibus molestiae eligendi dolorum debitis, optio excepturi maiores voluptates laudantium iure fuga quam sapiente? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil eum debitis praesentium voluptatibus, doloremque accusamus inventore ex architecto quia perferendis nostrum cum, beatae eius delectus reprehenderit doloribus officiis amet eligendi.</p>
+</body>
+</html>
