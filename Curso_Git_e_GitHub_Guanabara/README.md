@@ -1,2 +1,2 @@
-# Curso Grátis de Git e GitHub
-Material do **Curso de Git e GitHub**, disponível gratuitamente no canal do *YouTube*.
+# Curso de Git e GitHub com Gustavo Guanabara
+Materiais do **Curso de Git e GitHub**, aulas, e exercicios feitos por mim durante o curso
