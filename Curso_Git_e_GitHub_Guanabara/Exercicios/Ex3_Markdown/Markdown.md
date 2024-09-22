@@ -17,6 +17,22 @@
   1. Teste de um
   2. Teste de dois
   3. Teste de tres
-     4.  teste quatro
-     5.  Teste de cinco
-  5. Teste de seis
+        i.  teste quatro
+        ii.  Teste de cinco
+  6. Teste de seis
+
+ 
+  Lista demarcada:
+  
+  * Teste
+  * Teste
+  - Teste
+  - Teste
+  
+ 
+ Lista de Tarefas
+
+ -[x] Criar a página principal
+ -[] Criar a página da loja
+ -[] Finalizar a reunão com o cliente
+ -[] Receber pagamento
