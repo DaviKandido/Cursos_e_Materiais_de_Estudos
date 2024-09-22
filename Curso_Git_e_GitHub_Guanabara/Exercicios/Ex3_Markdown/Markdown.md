@@ -8,6 +8,15 @@
 * ## Titulo nivel 2
 * ### Ttitulo nivel 3
 
-* Para dividir uma area 3 asteristicos "***" ou "---"
+* Para dividir uma area usa-se 3 asteristicos "***" ou "---"
 
   ***
+
+  Listas numerada:
+
+  1. Teste de um
+  2. Teste de dois
+  3. Teste de tres
+     4.  teste quatro
+     5.  Teste de cinco
+  5. Teste de seis
