@@ -29,7 +29,7 @@ Aqui está uma visão geral das pastas presentes no repositório e uma breve des
 - **Conteúdo**: Projetos práticos em HTML, CSS, JavaScript e ferramentas de design.
 
 ### 📁 Kamuta
-- **Descrição**: Repositório relacionado a projetos ou estudos do curso Kamuta
+- **Descrição**: Repositório relacionado a projetos e aulas dadas no curso Kamuta, no qual sou monitor de aplicações Web
 - **Conteúdo**: Arquivos e materiais relevantes ao projeto Kamuta.
 
 ### 📁 Materias de estudo - Cursos
