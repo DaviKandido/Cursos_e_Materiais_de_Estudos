@@ -32,7 +32,7 @@
  
  Lista de Tarefas
 
--[] Criar a página principal
--[] Criar a página da loja
--[] Finalizar a reunão com o cliente
--[] Receber pagamento
+-[x] Criar a página principal
+-[ ] Criar a página da loja
+-[ ] Finalizar a reunão com o cliente
+-[ ] Receber pagamento
