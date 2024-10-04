@@ -1,0 +1,10 @@
+
+- Entalação e inicialização:
+
+//Create React App (Estalador de React)
+
+- npx create-react-app meu-projeto (Estala a pasta com o nome do projeto "meu-projeto")
+
+- cd meu-projeto (entra na pasta do projeto)
+
+- npm start (inicia o script e abre o projeto no navegador)
