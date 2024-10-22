@@ -1,0 +1,43 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  flex-direction: row;
+  background: rgb(114, 114, 221);
+  color: white;
+}
+header button {
+  background: rgb(184, 59, 59);
+  height: 5vh;
+  margin-left: 1vh;
+}
+header button:hover {
+  background: yellow;
+  height: 4.5vh;
+}
+header button::after {
+  content: " Testee";
+}
+
+.contato1, .contato2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  flex-direction: column;
+  background: aqua;
+}
+.contato1 button, .contato2 button {
+  background-color: rgb(224, 167, 167);
+  height: 5vh;
+}
+.contato1 button:hover, .contato2 button:hover {
+  margin-top: 0.5vh;
+  background: yellow;
+  height: 4.5vh;
+}
+
+body {
+  background-color: wheat;
+}/*# sourceMappingURL=index.css.map */

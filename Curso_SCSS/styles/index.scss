@@ -1,0 +1,31 @@
+//Comentários podem usar //
+
+//utilizando node se pode redirecionar as pastas de compilação
+
+@import './variaveis';
+@import './header'; //importa o header de outro arquivo
+
+
+.contato1{
+    @include flexCenter(column, aqua);
+
+    button{
+        background-color: rgb(224, 167, 167);
+        height: 5vh;
+
+        &:hover{
+            margin-top: 0.5vh;
+            background: yellow;
+            height: 4.5vh;
+        }
+    }
+}
+
+.contato2{
+    @extend .contato1; //Estende todos as configura do .contato1
+    
+}
+
+body{
+    background-color: wheat;
+}

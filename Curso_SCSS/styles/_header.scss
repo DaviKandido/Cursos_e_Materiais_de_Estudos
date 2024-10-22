@@ -1,0 +1,33 @@
+//Aqui é um templete do header, usa-se _nomeDoTamplete
+
+@mixin flexCenter($direction, $bg) { //Uma função em Css, aceita parâmetros
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    flex-direction: $direction;
+    background: $bg;
+}
+
+header{
+
+    @include flexCenter(row, $primary); // Inclui a função flexCenter()
+
+    color: white;
+
+    button{ //Pega o botão dentro do header
+        background: $secundary;
+        height: 5vh;
+        margin-left: 1vh;
+
+        &:hover{ //& pega a ultima tag ou atributo incluído
+            background: yellow;
+            height: 4.5vh;
+        }
+
+        &::after{
+            content: " Testee";
+        }
+    }
+
+}
