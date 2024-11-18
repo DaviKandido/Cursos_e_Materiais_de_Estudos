@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Filxgirl';
+    src: url('fonts/Filxgirl.TTF') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+
+    //Tipos de formatação:
+    //format('truetype');
+    //format('opentype');
+    //format('embedded-opentype');
+    //format('svg');
+
+    // - opentype(otf)
+    // - truetype(ttf)
+    // - embedded-opentype(woff)
+    // - svg
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2{
+    font-family: 'Filxgirl', Times, sans-serif;
+    font-size: 3em;
+    font-weight: normal;
+}

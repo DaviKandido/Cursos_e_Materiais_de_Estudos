@@ -25,6 +25,7 @@ function App() {
       <p>Soma: {soma(2, 3)}</p>
       <img src={url} alt="Minha Imagem" />
 
+
       <HelloWord></HelloWord>
       
     </div>
