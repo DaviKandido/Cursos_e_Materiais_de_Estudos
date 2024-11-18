@@ -120,5 +120,4 @@ Estou animado para continuar aprendendo e construir aplicações cada vez mais r
 
 ### 🌟 Tags:  
 `#NodeJS` `#Express` `#Backend` `#Nodemon` `#Alura` `#GoogleGemini` `#DesenvolvimentoWeb` `#ImersaoDev` `#Google` `#ImersaoBackEnd`
-```
 
