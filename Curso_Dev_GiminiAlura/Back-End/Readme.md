@@ -122,6 +122,3 @@ Estou animado para continuar aprendendo e construir aplicações cada vez mais r
 `#NodeJS` `#Express` `#Backend` `#Nodemon` `#Alura` `#GoogleGemini` `#DesenvolvimentoWeb` `#ImersaoDev` `#Google` `#ImersaoBackEnd`
 ```
 
-### **Como usar**  
-1. Copie e cole o conteúdo no arquivo `README.md` do seu repositório no GitHub.  
-2. Ele será renderizado corretamente com formatação ao visualizar no GitHub. 🎉
