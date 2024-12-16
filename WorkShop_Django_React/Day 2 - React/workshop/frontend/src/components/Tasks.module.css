@@ -1,0 +1,54 @@
+.TaskList {
+    padding: 20px;
+    background-color: #61C9A8;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .TaskItem {
+    background-color: #ffffff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .CompleteButton {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 10px 5px 0 0;
+  }
+  
+  .CompleteButton:hover {
+    background-color: #45a049;
+  }
+  
+  .DeleteButton {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .DeleteButton:hover {
+    background-color: #e53935;
+  }
+  
+  
+  
+  @media (max-width: 768px) {
+    .TaskList {
+      padding: 15px;
+      max-width: 100%;
+    }
+  }
