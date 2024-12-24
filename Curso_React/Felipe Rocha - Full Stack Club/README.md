@@ -49,3 +49,10 @@ biblioteca para gerar ids Aleatório:
 Biblioteca para o gerenciamento de rotas em React:
   - npm install react-router-dom
   - Gerencia diferentes paginas (No entanto em um mesmo HTML) (SPA -Single Page Application)
+
+
+
+### Para Fazer o deploy
+
+    Prepare a aplicação para build
+    - npm run build
