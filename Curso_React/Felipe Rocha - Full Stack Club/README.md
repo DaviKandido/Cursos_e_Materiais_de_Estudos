@@ -14,7 +14,7 @@ Primeiros passo:
   -  npm (Gerenciador de pacotes)
   -  create (Criador do projeto)
   -  vite (Instancia um projeto vite)
-  -  @5.2.2 (Versão do vite utilizada)
+  -  @5.2.2 (Versão do vite utilizada)A
   -  . (Ordena ele ser criado na pasta atual)
 
 
