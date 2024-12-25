@@ -1,0 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Navbar{
+  background-color: red;
+
+  &:hover{
+    background-color: green;
+    border-radius: 2rem;
+  }
+}

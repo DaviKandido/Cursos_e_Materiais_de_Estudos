@@ -1,13 +1,13 @@
-import { useState } from 'react'
 
-import './App.css'
+import './assets/css/App.scss'
+import Navbar from './components/Navbar'
 
 function App() {
 
 
   return (
     <>
-      <h1>Olá React</h1>
+      <Navbar msg="Estudando React" link={[]}/>
     </>
   )
 }
