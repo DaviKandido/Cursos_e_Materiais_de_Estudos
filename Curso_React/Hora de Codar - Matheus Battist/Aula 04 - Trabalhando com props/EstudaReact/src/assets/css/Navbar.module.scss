@@ -1,0 +1,10 @@
+#navbar{
+    background-color: red;
+    text-align: center;
+    align-content: center;
+    height: 4rem ;
+  
+    &:hover{
+      background-color: green;
+    }
+  }
