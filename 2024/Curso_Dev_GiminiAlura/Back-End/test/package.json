@@ -1,0 +1,35 @@
+{
+  "name": "barber_backend",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch --env-file=src/config/.env src/server.js"
+  },
+  "keywords": [
+    "Barber",
+    "NextJs",
+    "Typescript",
+    "Express"
+  ],
+  "authors": [
+    "Davi Cândido de Almeida  <davicandidopucminas@gmail.com>",
+    "Gabriel"
+  ],
+  "license": "ISC",
+  "description": "Servidor back-end para o projeto WeBarber",
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/morgan": "^1.9.9",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "mongodb": "^6.12.0",
+    "morgan": "^1.10.0"
+  }
+}
