@@ -4,8 +4,8 @@ import { House, Search } from "lucide-react";
 
 export default function Sidebar() {
   return (
-      <nav className="bg-[#121212] rounded-[8px] cursor-pointer py-[20px]">
-        <div className="flex bg-[#121212] rounded-[8px] pl-[16px] mb-7">
+      <nav className="bg-[var(--background-card-black)] rounded-[8px] cursor-pointer py-[20px]">
+        <div className="flex bg-[var(--background-card)] rounded-[8px] pl-[16px] mb-7">
           <a href="#">
             <Image src={img} alt="Logo" className="w-[100px]" />
           </a>

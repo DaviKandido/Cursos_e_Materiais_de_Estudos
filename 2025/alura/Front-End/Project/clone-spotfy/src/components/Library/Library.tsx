@@ -5,7 +5,7 @@ export default function Library() {
 
 
   return (
-    <div className="bg-[#121212] rounded-[8px] flex justify-between flex-col p-[8px] py-[10px] pt-[px4] text-[#b3b3b3] mt-[10px]">
+    <div className="bg-[var(--background-card-black)] rounded-[8px] flex justify-between flex-col p-[8px] py-[10px] pt-[px4] text-[#b3b3b3] mt-[10px]">
       <div className="flex justify-between items-center">
         <button type="button" className="flex items-center gap-2 mr-[10px] bg-transparent border-none text-[1em] font-[700] text-center p-[20px] pr-[10px] pl-[10px] hover:text-[#fff]">
           <BookMarked />
@@ -14,7 +14,7 @@ export default function Library() {
         <Plus strokeWidth={2.5} size={23} className="mr-[15px] cursor-pointer hover:text-[#fff]"/>
       </div>
 
-      <section className="bg-[#242424] mt-[8px] mb-[8px] p-[16px] pl-[20px] pr-[20px] rounded-[8px]">
+      <section className="bg-[var(--background-card-gray)] mt-[8px] mb-[8px] p-[16px] pl-[20px] pr-[20px] rounded-[8px]">
         <div className="flex flex-col items-start justify-between">
           <span className="pb-[14px] font-[700]">
               Cire sua primeira playlist
