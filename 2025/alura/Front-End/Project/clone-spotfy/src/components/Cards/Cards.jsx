@@ -17,6 +17,9 @@ import Image from "next/image";
 import { useEffect } from "react";
 import { Play } from "lucide-react";
 
+
+import "./Cards.css";
+
 export default function Cards({pesquisa}) {
 
 

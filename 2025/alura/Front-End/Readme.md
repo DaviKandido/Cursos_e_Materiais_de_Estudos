@@ -12,3 +12,7 @@ Dependência de JsonServer:
 
 Para subir a pasta da API no jsonServer
   - json-server --watch api-artists/artists.json --port 8000
+
+
+Para criar projetos React
+  - npx create-react-app \[nome da aplicação\]
