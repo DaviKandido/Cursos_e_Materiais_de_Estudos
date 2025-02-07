@@ -16,3 +16,15 @@ Para subir a pasta da API no jsonServer
 
 Para criar projetos React
   - npx create-react-app \[nome da aplicação\]
+
+
+Para rodar o jsonServer junto do front-end:
+   - npm install concurrently --save-dev
+
+
+  "scripts": {
+    "dev": "concurrently \"next dev --turbopack\" \"json-server --watch api-artists/artists.json --port 8000\"",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
