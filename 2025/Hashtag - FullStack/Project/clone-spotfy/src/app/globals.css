@@ -1,0 +1,47 @@
+@import url("./reset.css");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --background: #171717;
+  --foreground: #ffffff;
+  --font-dm-sans: "DM Sans", sans-serif, Arial, Helvetica;
+  --text-gray-:#b3b3b3;
+  --background-card-black: #121212;
+  --background-card-gray: #242424;
+  --bg-icon:#131313;
+  --bg-arrow-color:rgba(0,0,0,7);
+  --background-gradiente: linear-gradient(to right, #ae2896, #509bf5);
+}
+
+@media (prefers-color-scheme: with) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+    --text-gray-:#0a0a0a;
+    --background-card-black: #171717;
+    --background-card-gray: #242424;
+    --bg-icon:#131313;
+    --bg-arrow-color:rgba(0,0,0,7);
+    --background-gradiente: linear-gradient(to right, #ae2896, #509bf5);
+  }
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--font-dm-sans);
+}
+
+
