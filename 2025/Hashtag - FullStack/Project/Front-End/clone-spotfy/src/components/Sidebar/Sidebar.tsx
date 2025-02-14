@@ -18,7 +18,7 @@ export default function Sidebar() {
               </Link>
             </li>
             <li >
-              <Link href="/musicas" className="flex items-center gap-3 text-[#b3b3b3] font-[600] hover:text-[#fff]">
+              <Link href="/buscar" className="flex items-center gap-3 text-[#b3b3b3] font-[600] hover:text-[#fff]">
                 <Search width={20}/> <span>Buscar</span>
               </Link>
             </li>
