@@ -1,5 +1,6 @@
 //Api significa Application Programming Interface
 import express from "express"
+import { ObjectId } from "mongodb";
 
 import { db } from "./connect.js"
 import cors from "cors"
@@ -22,12 +23,28 @@ app.get("/", (req, res) => {
 })
 
 app.get("/artists", async (req, res) => {
-  res.send(await db.collection("artists").find({}).toArray())
+  const data = await db.collection("artists").find({}).toArray()
+  console.log(data)
+  res.status(200).send(data)
 })
 
 
 app.get("/songs", async(req, res) => {
-  res.send(await db.collection("songs").find({}).toArray())
+  const data = await db.collection("songs").find({}).toArray()
+  console.log(data)
+  res.status(200).send(data)
+})
+
+
+app.get("/song/:id", async(req, res) => {
+  const id = req.params.id
+  const data = await db.collection("songs").findOne({
+    _id: new ObjectId(id)
+  });
+
+
+  console.log(data)
+  res.status(200).send(data)
 })
 
 export { app }

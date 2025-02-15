@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { Suspense } from "react";
 import Player from "./_components/Player";
 import Link from "next/link";
 import { useParams } from "next/navigation";
@@ -20,9 +20,8 @@ export default function Song() {
     const randomIndex= Math.floor(Math.random() * songsArrayFromArtist.length -1);
     const randomIndex2= Math.floor(Math.random() * songsArrayFromArtist.length -1);
 
-    const randomIdSongArtist: number = songsArrayFromArtist[randomIndex]._id;
-    const randomId2SongArtist: number = songsArrayFromArtist[randomIndex2]._id;
-
+    const randomIdSongArtist = songsArrayFromArtist[randomIndex]._id;
+    const randomId2SongArtist = songsArrayFromArtist[randomIndex2]._id;
 
   return (
     <main className="max-w-[80vw] ml-[20em]">
@@ -46,11 +45,15 @@ export default function Song() {
             />
           </Link>
 
-          <Player 
-            duration={song.duration}
-            randomIdSongArtist={randomIdSongArtist}
-            randomId2SongArtist={randomId2SongArtist}
-          />
+
+
+            <Player 
+              duration={song.duration}
+              randomIdSongArtist={randomIdSongArtist}
+              randomId2SongArtist={randomId2SongArtist}
+              song={song}
+            />
+
 
           <div>
             <p className="song__name">{song.name}</p>

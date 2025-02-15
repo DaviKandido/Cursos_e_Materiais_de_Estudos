@@ -22,6 +22,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/components/Navigator/Navigator.jsx", "src/components/Cards/Cards.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/components/Navigator/Navigator.jsx", "src/components/Cards/Cards.jsx", "src/app/song/[id]/page.jsx", "src/app/song/[id]/_components/Player.jsx"],
   "exclude": ["node_modules"]
 }

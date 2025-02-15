@@ -395,6 +395,7 @@ img {
   display: grid;
   grid-template-rows: 1fr auto;
   flex: 1;
+  margin: 1em;
 }
 
 .song__container {
@@ -409,10 +410,11 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 25px;
+  padding: 10em 0 10em 0;
 }
 
 .song__image-container {
+
   box-shadow: 0 0 25px 10px var(--green-1000-25);
 }
 
