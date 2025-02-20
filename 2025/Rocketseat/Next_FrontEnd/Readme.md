@@ -33,7 +33,7 @@ npm install -D @biomejs/biome @types/node @types/react @types/react-dom typescri
 | **react** | `npm install react` | Biblioteca principal para construção de interfaces. |
 | **react-dom** | `npm install react-dom` | Pacote para manipulação da árvore DOM no React. |
 | **tailwindcss** | `npm install tailwindcss` | Framework CSS utilitário para estilização rápida. |
-| **@biomejs/biome** | `npm install -D @biomejs/biome` | Ferramenta para linting, formatação e análise de código. |
+| **@biomejs/biome** | `npm install -D @biomejs/biome && npx biome init` | Ferramenta para linting, formatação e análise de código. |
 | **@types/node** | `npm install -D @types/node` | Tipos para o Node.js. |
 | **@types/react** | `npm install -D @types/react` | Tipos para o React. |
 | **@types/react-dom** | `npm install -D @types/react-dom` | Tipos para o React DOM. |
@@ -68,3 +68,10 @@ export default {
 
 Agora seu projeto está configurado e pronto para uso! 🚀
 
+
+Biblioteca para trabalhar com formularios em react
+ - npm i react-hook-form
+
+Biblioteca de validação de inputs
+ - npm i zod @hookform/resolvers
+ - npm install @hookform/resolvers
