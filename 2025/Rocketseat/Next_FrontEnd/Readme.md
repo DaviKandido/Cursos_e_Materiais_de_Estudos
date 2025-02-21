@@ -75,3 +75,4 @@ Biblioteca para trabalhar com formularios em react
 Biblioteca de validação de inputs
  - npm i zod @hookform/resolvers
  - npm install @hookform/resolvers
+ - npm i orval -D
